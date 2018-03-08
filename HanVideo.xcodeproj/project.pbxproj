@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D2631E32050D30E00CB715E /* HanCircleProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2631E22050D30E00CB715E /* HanCircleProgress.m */; };
+		9D2631E62050EFA000CB715E /* HanCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2631E52050EFA000CB715E /* HanCenterView.m */; };
 		9D3783242050215000196A17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3783232050215000196A17 /* AppDelegate.m */; };
 		9D3783272050215000196A17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3783262050215000196A17 /* ViewController.m */; };
 		9D37832A2050215000196A17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3783282050215000196A17 /* Main.storyboard */; };
@@ -15,6 +17,21 @@
 		9D3783322050215000196A17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3783312050215000196A17 /* main.m */; };
 		9D37833C2050215000196A17 /* HanVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D37833B2050215000196A17 /* HanVideoTests.m */; };
 		9D3783472050215000196A17 /* HanVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3783462050215000196A17 /* HanVideoUITests.m */; };
+		9D3783582050216B00196A17 /* JoyMediaRecordPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3783542050216A00196A17 /* JoyMediaRecordPlay.m */; };
+		9D37835C2050218D00196A17 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D37835B2050218D00196A17 /* AVFoundation.framework */; };
+		9D37836D2050223400196A17 /* LW_CameraFocus.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3783612050223400196A17 /* LW_CameraFocus.png */; };
+		9D37836E2050223400196A17 /* LW_PhotoLibruary.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3783622050223400196A17 /* LW_PhotoLibruary.png */; };
+		9D37836F2050223400196A17 /* LW_StartRecordVideo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3783632050223400196A17 /* LW_StartRecordVideo@2x.png */; };
+		9D3783702050223400196A17 /* LW_StartRecordVideo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3783642050223400196A17 /* LW_StartRecordVideo@3x.png */; };
+		9D3783712050223400196A17 /* LW_SwitchCamera.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3783652050223400196A17 /* LW_SwitchCamera.png */; };
+		9D3783722050223400196A17 /* LW_SwitchCamera1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3783662050223400196A17 /* LW_SwitchCamera1.png */; };
+		9D3783732050223400196A17 /* LW_Video_Down.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3783672050223400196A17 /* LW_Video_Down.png */; };
+		9D3783742050223400196A17 /* LW_Video_FlashLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3783682050223400196A17 /* LW_Video_FlashLight.png */; };
+		9D3783752050223400196A17 /* trends_ preview_video_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3783692050223400196A17 /* trends_ preview_video_back@2x.png */; };
+		9D3783762050223400196A17 /* trends_ preview_video_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D37836A2050223400196A17 /* trends_ preview_video_back@3x.png */; };
+		9D3783772050223400196A17 /* trends_preview_video_done@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D37836B2050223400196A17 /* trends_preview_video_done@2x.png */; };
+		9D3783782050223400196A17 /* trends_preview_video_done@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D37836C2050223400196A17 /* trends_preview_video_done@3x.png */; };
+		9D37837B2050236A00196A17 /* HanMediaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D37837A2050236A00196A17 /* HanMediaView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D2631E12050D30E00CB715E /* HanCircleProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HanCircleProgress.h; sourceTree = "<group>"; };
+		9D2631E22050D30E00CB715E /* HanCircleProgress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HanCircleProgress.m; sourceTree = "<group>"; };
+		9D2631E42050EFA000CB715E /* HanCenterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HanCenterView.h; sourceTree = "<group>"; };
+		9D2631E52050EFA000CB715E /* HanCenterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HanCenterView.m; sourceTree = "<group>"; };
 		9D37831F2050215000196A17 /* HanVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D3783222050215000196A17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9D3783232050215000196A17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +72,23 @@
 		9D3783422050215000196A17 /* HanVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D3783462050215000196A17 /* HanVideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HanVideoUITests.m; sourceTree = "<group>"; };
 		9D3783482050215000196A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D3783542050216A00196A17 /* JoyMediaRecordPlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoyMediaRecordPlay.m; sourceTree = "<group>"; };
+		9D3783562050216B00196A17 /* JoyMediaRecordPlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoyMediaRecordPlay.h; sourceTree = "<group>"; };
+		9D37835B2050218D00196A17 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9D3783612050223400196A17 /* LW_CameraFocus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LW_CameraFocus.png; sourceTree = "<group>"; };
+		9D3783622050223400196A17 /* LW_PhotoLibruary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LW_PhotoLibruary.png; sourceTree = "<group>"; };
+		9D3783632050223400196A17 /* LW_StartRecordVideo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LW_StartRecordVideo@2x.png"; sourceTree = "<group>"; };
+		9D3783642050223400196A17 /* LW_StartRecordVideo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LW_StartRecordVideo@3x.png"; sourceTree = "<group>"; };
+		9D3783652050223400196A17 /* LW_SwitchCamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LW_SwitchCamera.png; sourceTree = "<group>"; };
+		9D3783662050223400196A17 /* LW_SwitchCamera1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LW_SwitchCamera1.png; sourceTree = "<group>"; };
+		9D3783672050223400196A17 /* LW_Video_Down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LW_Video_Down.png; sourceTree = "<group>"; };
+		9D3783682050223400196A17 /* LW_Video_FlashLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LW_Video_FlashLight.png; sourceTree = "<group>"; };
+		9D3783692050223400196A17 /* trends_ preview_video_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trends_ preview_video_back@2x.png"; sourceTree = "<group>"; };
+		9D37836A2050223400196A17 /* trends_ preview_video_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trends_ preview_video_back@3x.png"; sourceTree = "<group>"; };
+		9D37836B2050223400196A17 /* trends_preview_video_done@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trends_preview_video_done@2x.png"; sourceTree = "<group>"; };
+		9D37836C2050223400196A17 /* trends_preview_video_done@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trends_preview_video_done@3x.png"; sourceTree = "<group>"; };
+		9D3783792050236A00196A17 /* HanMediaView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HanMediaView.h; sourceTree = "<group>"; };
+		9D37837A2050236A00196A17 /* HanMediaView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HanMediaView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D37835C2050218D00196A17 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +124,7 @@
 				9D37833A2050215000196A17 /* HanVideoTests */,
 				9D3783452050215000196A17 /* HanVideoUITests */,
 				9D3783202050215000196A17 /* Products */,
+				9D37835A2050218D00196A17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +141,15 @@
 		9D3783212050215000196A17 /* HanVideo */ = {
 			isa = PBXGroup;
 			children = (
+				9D3783602050223400196A17 /* imageSources */,
+				9D3783792050236A00196A17 /* HanMediaView.h */,
+				9D37837A2050236A00196A17 /* HanMediaView.m */,
+				9D2631E12050D30E00CB715E /* HanCircleProgress.h */,
+				9D2631E22050D30E00CB715E /* HanCircleProgress.m */,
+				9D2631E42050EFA000CB715E /* HanCenterView.h */,
+				9D2631E52050EFA000CB715E /* HanCenterView.m */,
+				9D3783562050216B00196A17 /* JoyMediaRecordPlay.h */,
+				9D3783542050216A00196A17 /* JoyMediaRecordPlay.m */,
 				9D3783222050215000196A17 /* AppDelegate.h */,
 				9D3783232050215000196A17 /* AppDelegate.m */,
 				9D3783252050215000196A17 /* ViewController.h */,
@@ -130,6 +179,33 @@
 				9D3783482050215000196A17 /* Info.plist */,
 			);
 			path = HanVideoUITests;
+			sourceTree = "<group>";
+		};
+		9D37835A2050218D00196A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D37835B2050218D00196A17 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D3783602050223400196A17 /* imageSources */ = {
+			isa = PBXGroup;
+			children = (
+				9D3783612050223400196A17 /* LW_CameraFocus.png */,
+				9D3783622050223400196A17 /* LW_PhotoLibruary.png */,
+				9D3783632050223400196A17 /* LW_StartRecordVideo@2x.png */,
+				9D3783642050223400196A17 /* LW_StartRecordVideo@3x.png */,
+				9D3783652050223400196A17 /* LW_SwitchCamera.png */,
+				9D3783662050223400196A17 /* LW_SwitchCamera1.png */,
+				9D3783672050223400196A17 /* LW_Video_Down.png */,
+				9D3783682050223400196A17 /* LW_Video_FlashLight.png */,
+				9D3783692050223400196A17 /* trends_ preview_video_back@2x.png */,
+				9D37836A2050223400196A17 /* trends_ preview_video_back@3x.png */,
+				9D37836B2050223400196A17 /* trends_preview_video_done@2x.png */,
+				9D37836C2050223400196A17 /* trends_preview_video_done@3x.png */,
+			);
+			path = imageSources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +314,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D3783722050223400196A17 /* LW_SwitchCamera1.png in Resources */,
+				9D3783742050223400196A17 /* LW_Video_FlashLight.png in Resources */,
+				9D3783782050223400196A17 /* trends_preview_video_done@3x.png in Resources */,
+				9D37836D2050223400196A17 /* LW_CameraFocus.png in Resources */,
+				9D3783702050223400196A17 /* LW_StartRecordVideo@3x.png in Resources */,
+				9D3783772050223400196A17 /* trends_preview_video_done@2x.png in Resources */,
+				9D37836E2050223400196A17 /* LW_PhotoLibruary.png in Resources */,
+				9D3783732050223400196A17 /* LW_Video_Down.png in Resources */,
+				9D3783712050223400196A17 /* LW_SwitchCamera.png in Resources */,
+				9D3783752050223400196A17 /* trends_ preview_video_back@2x.png in Resources */,
+				9D3783762050223400196A17 /* trends_ preview_video_back@3x.png in Resources */,
 				9D37832F2050215000196A17 /* LaunchScreen.storyboard in Resources */,
 				9D37832C2050215000196A17 /* Assets.xcassets in Resources */,
 				9D37832A2050215000196A17 /* Main.storyboard in Resources */,
+				9D37836F2050223400196A17 /* LW_StartRecordVideo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +353,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D2631E32050D30E00CB715E /* HanCircleProgress.m in Sources */,
 				9D3783272050215000196A17 /* ViewController.m in Sources */,
 				9D3783322050215000196A17 /* main.m in Sources */,
+				9D3783582050216B00196A17 /* JoyMediaRecordPlay.m in Sources */,
 				9D3783242050215000196A17 /* AppDelegate.m in Sources */,
+				9D2631E62050EFA000CB715E /* HanCenterView.m in Sources */,
+				9D37837B2050236A00196A17 /* HanMediaView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +523,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HY67FLZPJ3;
 				INFOPLIST_FILE = HanVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = XC.HanVideo;
@@ -444,6 +537,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HY67FLZPJ3;
 				INFOPLIST_FILE = HanVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = XC.HanVideo;

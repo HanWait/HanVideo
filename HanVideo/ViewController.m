@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "HanMediaView.h"
+@interface ViewController ()<HanMediaViewDelegate>
 
 @end
 
@@ -17,8 +17,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    HanMediaView *mediaView = [[HanMediaView alloc] initWithFrame:self.view.bounds];
+    mediaView.delegate = self;
+    [self.view addSubview:mediaView];
+    
 }
 
+- (void)hanMediaView:(HanMediaView *)view selectType:(HanMediaSelectType)type withVideoUrl:(NSString *)urlString
+{
+    NSLog(@"--->%lu  ---->%@",(unsigned long)type,urlString);
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
